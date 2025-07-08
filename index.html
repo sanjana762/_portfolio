@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p>Hello, my name is</p>
+                <h1>SANJANA SHARMA</h1>
+                <h2>I am <span>Web Developer.</span></h2>
+                <a href="resume.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="hero-img">
+                <img src="photo for portfolio.jpg" alt="Sanjana Sharma" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="sanjana sharma.png" alt="About Me Image" />
+            </div>
+            <div class="about-content">
+                <h2>About me</h2>
+                <h3><strong>Developer &amp; CODER</strong></h3>
+                <p>
+                    I'm a passionate and curious learner currently pursuing a B.Tech in Artificial Intelligence
+                    and Machine Learning at Vivekananda Institute of Professional Studies. With a strong foundation
+                    in programming and a creative mindset, I enjoy building smart, user-friendly solutions that
+                    make a real-world impact.
+                    My interests span across web development, machine learning, and natural language processing.
+                    I have a particular enthusiasm for web development, where I blend logic and design to create
+                    seamless user experiences. From designing responsive UIs to implementing dynamic features,
+                    I take pride in building clean, efficient, and interactive websites.<br>
+                    Outside of tech, I’m also
+                    deeply passionate about abstract painting — I find joy in expressing emotions and stories through
+                    colors, textures, and free-flowing forms. This creative hobby has helped me see patterns in chaos,
+                    remain detail-oriented, and approach problem-solving from a unique perspective.
+<br>
+                    I love connecting with people, exchanging ideas, and staying updated with the latest trends in AI
+                    and software development. I'm driven by a desire to solve problems and create meaningful experiences
+                    through technology and creativity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills Section -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3> Web Development</h3>
+                <p>It includes aspects such as web design, web publishing, web programming, and database management. It
+                    is the creation of an application that works over the internet.</p>
+                <a href="#" class="read-more">Read More</a>
+
+            </div>
+            <div class="skill-card">
+                <h3> C++</h3>
+                <p>A generic programming language for building software, operating systems, and applications, as well as
+                    in-game programming, software engineering, and data structures.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="skill-card">
+                <h3> JAVA</h3>
+                <p>It is a fast, secure, reliable programming language for coding everything from mobile apps and
+                    enterprise software to big data applications and server-side technologies.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="skill-card">
+                <h3> PYTHON</h3>
+                <p>It is a high-level, general-purpose programming language. Its design philosophy emphasizes code
+                    readability with the use of significant indentation.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+
+            <!-- Project 1: Handwriting Recognition -->
+            <div class="project-card">
+                <img src="handwritten recognition.png" alt="Handwriting Recognition" class="project-image">
+                <span class="project-category">🧠 Deep Learning</span>
+                <h3 class="project-title">Handwriting Recognition</h3>
+                <p class="project-description">
+                    Used CNNs and segmentation to detect similarity in handwritten notes. Helpful for plagiarism
+                    detection.
+                </p>
+                <div class="project-tags">
+                    <span class="tag green">CNN</span>
+                    <span class="tag purple">Python</span>
+                    <span class="tag">OpenCV</span>
+                </div>
+                <!-- <a href="#" class="project-btn">🔗 View Project</a> -->
+            </div>
+
+            <!-- Project 2: INFOBuddy -->
+            <div class="project-card">
+                <img src="chatbot.png" alt="INFOBuddy" class="project-image">
+                <span class="project-category">💬 AI Chatbot</span>
+                <h3 class="project-title">INFOBuddy</h3>
+                <p class="project-description">
+                    A smart AI chatbot that delivers quick and personalized information across educational domains.
+                </p>
+                <div class="project-tags">
+                    <span class="tag purple">Python</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag green">langchain</span>
+                </div>
+                <!-- <a href="#" class="project-btn">🔗 View Project</a> -->
+            </div>
+
+            <!-- Project 3: Clinic Appointment UI -->
+            <!-- <div class="project-card">
+      <img src="images/clinic-ui.jpg" alt="Clinic Appointment UI" class="project-image">
+      <span class="project-category">🎨 Frontend Design</span>
+      <h3 class="project-title">Clinic Appointment UI</h3>
+      <p class="project-description">
+        Designed a mobile-responsive UI to book doctor appointments using HTML, CSS & Bootstrap.
+      </p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag green">CSS</span>
+        <span class="tag purple">Bootstrap</span>
+      </div>
+      <a href="#" class="project-btn">🔗 View Project</a>
+    </div> -->
+
+            <!-- Project 4: Chatbot with IBM Watson -->
+            <div class="project-card">
+                <img src="watson (2).png" alt="Chatbot with IBM Watson" class="project-image">
+                <span class="project-category">🤖 Conversational AI</span>
+                <h3 class="project-title">Chatbot with IBM Watson</h3>
+                <p class="project-description">
+                    Created a smart chatbot using Watson Assistant for basic customer queries and appointment handling.
+                </p>
+                <div class="project-tags">
+                    <span class="tag green">Watson</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag purple">API</span>
+                </div>
+                <!-- <a href="#" class="project-btn">🔗 View Project</a> -->
+            </div>
+
+            <!-- Project 5: MediScript -->
+            <div class="project-card">
+                <img src="Screenshot 2025-07-04 190316.png" alt="MediScript" class="project-image">
+                <span class="project-category">📝 Healthcare AI</span>
+                <h3 class="project-title">MediScript</h3>
+                <p class="project-description">
+                    An AI-powered tool that converts doctor-patient conversations into structured clinical notes
+                    automatically.
+                </p>
+                <div class="project-tags">
+                    <span class="tag purple">NLP</span>
+                    <span class="tag">Speech-to-Text</span>
+                    <span class="tag green">Python</span>
+                </div>
+                <!-- <a href="#" class="project-btn">🔗 View Project</a> -->
+            </div>
+
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Feel Free To Reach Out !</h2>
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-card">
+                <h3>Contact Information</h3>
+                <hr>
+                <p>If this website created a wonderful experience for you and left a lasting impression,then feel free
+                    to reach out!</p>
+                <p><i class="fas fa-phone"></i> 8744845168</p>
+                <p><i class="fas fa-envelope"></i> sanjanasharma2844@gmail.com</p>
+            </div>
+
+            <!-- Resume -->
+            <div class="contact-card">
+                <h3>Resume</h3>
+                <hr>
+                <p>And if you like what you see, feel free to check out my resume for more information in the link
+                    below!</p>
+                <a href="resume.pdf" download class="download-btn">
+                    DOWNLOAD HERE <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/sanjana-sharma-a01a04285" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/sanjana762" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://mail.google.com/mail/sanjanasharma2844@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
